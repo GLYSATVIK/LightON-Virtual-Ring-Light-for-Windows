@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    
+    <!-- App Identity -->
+    <AssemblyName>LightON</AssemblyName>
+    <RootNamespace>LightON_Final</RootNamespace>
+    <Version>1.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    
+    <!-- App Info -->
+    <Product>LightON - Virtual Ring Light</Product>
+    <Company>SATVIK</Company>
+    <Authors>SATVIK</Authors>
+    <Description>A virtual ring light for video calls, streaming, and content creation. Adds a soft, adjustable light overlay to improve lighting in webcam footage.</Description>
+    <Copyright>Copyright © 2024 SATVIK</Copyright>
+    
+    <!-- Publishing - for MSIX packaging -->
+    <WindowsPackageType>None</WindowsPackageType>
+    
+    <!-- Icon (uncomment after adding Assets/app.ico) -->
+    <!-- <ApplicationIcon>Assets\app.ico</ApplicationIcon> -->
+  </PropertyGroup>
+  
+  <!-- Uncomment after adding icon file
+  <ItemGroup>
+    <Resource Include="Assets\app.ico" />
+  </ItemGroup>
+  -->
+
+</Project>
